@@ -8,6 +8,7 @@ public class Lab190_Real_Bank {
         amit.setBal(500,true);
         long bal2 = amit.getBal();
         System.out.println(bal2);
+
     }
 
 }
