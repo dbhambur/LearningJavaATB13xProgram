@@ -2,8 +2,8 @@ package ex_29_Wrapper_Class;
 
 public class Lab216_Wrapper {
     public static void main(String[] args) {
-        Mobile iPhone = new Mobile (1,"iPhone 16", 120000);
-        Mobile samsung = new Mobile (2,"ultra24",1350000);
+        Mobile iPhone = new Mobile (1,"iPhone 16", 120000.0);
+        Mobile samsung = new Mobile (2,"ultra24", 1350000.0);
 
         iPhone.setPrice(20000.29);
         iPhone.display();
@@ -93,7 +93,7 @@ class OldPhone implements SIMCard{
 
 enum Covers{
     red("red_pokeman"),
-    blue("red_pokeman"),
+    blue("red_pokeman");
     private String color;
     Covers(String color){
         this.color = color;
